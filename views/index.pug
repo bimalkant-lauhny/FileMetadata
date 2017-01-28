@@ -1,0 +1,13 @@
+html
+
+    head
+        title File Size Metadata
+    
+    body
+        
+        p Select file to get its size.
+        
+        form(action="/get-size", method="post", enctype="multipart/form-data")
+            
+            input(type="file", name="file")
+            input(type="submit")
